@@ -1,0 +1,6 @@
+---
+#spring:
+#  profiles: noun
+words: boat,book,vote,seat,backpack,partition,groundhog,Emmanuel,Samuel
+server:
+  port: 8019
