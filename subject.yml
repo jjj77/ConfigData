@@ -1,0 +1,6 @@
+
+#spring:
+# profiles: subject
+words: I,You,He,She,It,They,We
+server:
+  port: 8015
