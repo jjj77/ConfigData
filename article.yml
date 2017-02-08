@@ -1,0 +1,6 @@
+
+#spring:
+#  profiles: article
+words: a,the
+server:
+  port: 8017
