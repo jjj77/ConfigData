@@ -1,0 +1,6 @@
+
+#spring:
+#  profiles: adjective
+words: reasonable,leaky,suspicious,ordinary,unlikely,likely,mostly
+server:
+  port: 8018
