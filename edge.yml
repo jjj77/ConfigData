@@ -1,12 +1,14 @@
 server:
   port: 8021
 
-   # get:
-    #  path: /se/**
-    #  url: http://httpbin.org/get
-    #links:
-    #  path: /links/**
-    #  url: http://httpbin.org/links
-    #images:
-     # path: /image/**
-     # url: http://httpbin.org/image
+zuul:
+  ignored-services: '*'
+
+  routes:
+    sentence: /sentence/**
+    noun: /noun/**
+    verb: /verb/**
+    article: /article/**
+    subject: /subject/**
+    adjective: /adjective/**
+    
