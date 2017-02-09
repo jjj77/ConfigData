@@ -1,2 +1,4 @@
 server:
   port: 8021
+zuul:
+  prefix: /services
