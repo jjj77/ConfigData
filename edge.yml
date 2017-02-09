@@ -3,7 +3,7 @@ server:
 
 zuul:
   ignored-services: '*'
-
+  prefix: services
   routes:
     sentence: /sentence/**
     noun: /noun/**
