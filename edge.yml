@@ -2,3 +2,13 @@ server:
   port: 8021
 zuul:
   prefix: /services
+  routes:
+   # get:
+    #  path: /se/**
+    #  url: http://httpbin.org/get
+    #links:
+    #  path: /links/**
+    #  url: http://httpbin.org/links
+    #images:
+     # path: /image/**
+     # url: http://httpbin.org/image
